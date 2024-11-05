@@ -28,3 +28,24 @@ h1 {
   text-align: center;
 }
 ```
+
+## CSS Positioning
+
+Position = by default **static**
+
+Position fixed = always visible when scrolling through page.
+
+Make elements **relative** = creating a parent and its child **absolute** will move relatively.
+
+```
+.header_headline (parent)
+position: relative ;
+
+.header_addon (child)
+position: absolute ;
+```
+
+sticky
+TO ADD asap
+
+## CSS Structure
