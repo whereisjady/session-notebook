@@ -45,7 +45,50 @@ position: relative ;
 position: absolute ;
 ```
 
-sticky
-TO ADD asap
+[comment]: <> (sticky notes etc. etc. STILL TO ADD asap)
 
 ## CSS Structure
+
+BEM-method: blocks, elements and modifiers
+
+Keep it DRY, do not repeat yourself
+
+```
+Block component: card
+Element: card__title (no standalone meaning - semantically tied to the block)
+Modifier:
+```
+
+**Root selector**: to incl all custom properties that need to be available through whole CSS.
+
+```
+:root {
+  --primary-color: lightgreen;
+  --secondary-color: skyblue;
+  --accent-color: tomato;
+  --font-family: Arial, sans-serif;
+
+}
+```
+
+Add the root to your elements:
+
+```
+header {
+background-color: var (--accent-color):
+}
+```
+
+### Seperate CSS files
+
+Separate global and local styles into different files such as: Global.css , header.css etc.
+
+Global.css add: universal selectors, root & body
+
+#### How to import one stylesheet or multiple stylesheets into another stylesheet
+
+You can import one stylesheet into another stylesheet using **@import**:
+
+```css
+@import "customer-card.css";
+```
