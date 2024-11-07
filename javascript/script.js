@@ -1,3 +1,17 @@
+// 1. Store the sentence 'Happy coding!' in a variable named 'coding'.
+let coding = "Happy coding!";
+
+// 2. Display the variable 'coding' as a message in the console.
+console.log(coding);
+
+// 3. Store the sentence 'Happy hacking!' in the variable named 'hacking'.
+let hacking = "Happy hacking!";
+
+// 4. Display the variable 'hacking' as a message in the console.
+console.log(hacking);
+
+-------------------------------------------------------
+
 console.log("HelloWorld");
 
 const myOtherNumber = 10;
