@@ -67,7 +67,7 @@ if (kidDidHelpCleanTheDishes) {
 dishesCleaned > 3 ? (carrots = carrots + 2) : (carrots = carrots - 1);
 // carrots = carrots + (dishesCleaned > 3 ? 2 : -1);
 
-// condition ? ifConditionTrue : ifConditionFalse
+// condition ? ifConditionTrue : ifConditionFalse/OR/otherwise
 
 const animal = "Dog";
 let emoji;
@@ -92,3 +92,17 @@ if (animal === "Dog") {
 // }
 
 console.log("animal is: ", animal, emoji);
+
+function sayHi() {
+  console.log("Hi");
+  console.log("Bye");
+}
+
+sayHi();
+
+function sum(a, b) {
+  return a + b;
+}
+
+const value = sum(1, 2);
+console.log(value);
